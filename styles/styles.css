@@ -1,0 +1,369 @@
+*{ 
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+}
+
+.nav{
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, rgba(113,113,113,1) 0%, rgba(200,200,200,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-icon-container{
+    display: flex;
+    justify-content:start;
+    margin-left: 18px;
+    width: 60px;
+}
+.nav-buttons-container{
+    display: flex;
+    justify-content:end;
+    
+}
+.nav-sections{
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+
+.nav-sections:hover{
+    color: rgb(121, 132, 143);
+}
+.presentation{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+.headers{
+    margin: 0;
+    position: absolute;
+    background: transparent;
+    line-height: 100%;
+    color: rgb(45, 45, 45);
+}
+    
+.home-container{
+    height: 100vh;
+}
+
+.bg-one{
+    background-image: url("../pictures_frame/pexels-nothing-ahead-3571551.jpg");
+}
+.bg-two{
+    background-image: url("../pictures_frame/pexels-dominika-roseclay-1089842.jpg");
+}
+.bg-three{
+    background-image: url("../pictures_frame/pexels-jaime-reimer-2662086.jpg");
+}
+.bg-four{
+    background-image: url("../pictures_frame/pexels-ian-beckley-2440061.jpg");
+}
+.bg-five{
+    background-image: url("../pictures_frame/pexels-reza-jackson-2976370.jpg");
+}
+.bg-six{
+    background-image: url("../pictures_frame/pexels-anthony-132428.jpg");
+}
+
+
+
+.bg-styles{
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 8px 20px;
+    background-size: 600px ;
+    background-position: center;
+    height: 720px;
+    width: 550px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(46, 204, 240, 0.4) -5px 5px, rgba(46, 204, 240, 0.3) -10px 10px, rgba(46, 204, 240, 0.2) -15px 15px, rgba(46, 204, 240, 0.1) -20px 20px, rgba(46, 204, 240, 0.05) -25px 25px;
+    
+    
+}
+
+.title-one{
+    top:0px;
+    left: -290px;
+}
+
+.title-two{
+    bottom: 0px;
+    right: -420px;
+    width: 400px;
+}
+
+
+.my-picture{
+   object-fit: cover;
+   height: 80%;
+   border: 40px solid rgba(255, 255, 255, 0.405) ;
+   
+   
+   
+}
+.myname_container{
+    display: flex;
+    justify-content:end;
+}
+
+.info-font{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+}
+.life{
+    box-shadow: rgba(46, 204, 240, 0.4) 10px 10px, rgba(46, 204, 240, 0.3) 15px 15px, rgba(46, 204, 240, 0.2) 20px 20px, rgba(46, 204, 240, 0.1) 25px 25px, rgba(46, 204, 240, 0.05) 30px 30px;
+}
+
+.about-me{
+    background: rgb(122,122,122);
+background: linear-gradient(90deg, rgb(202, 202, 202) 0%, rgba(255,255,255,1) 100%);
+    position: relative;
+  
+
+}
+.about-me-container{
+    margin: auto;
+    padding:300px 40px ;
+    max-width: 1400px;
+
+    display: flex;
+    
+    align-items: center;
+}
+ svg {
+        z-index: 10;
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        scale: 2.2;
+        }
+    
+    #frame {
+        stroke-dashoffset: 150; stroke-dasharray: 300 1476; stroke-width:30;
+        animation: frame 9s infinite alternate cubic-bezier(.5,-0.4,.5,1.4);
+        }
+    
+    @keyframes frame {
+        0%   { stroke-dashoffset: 150;  stroke-dasharray: 300 1476; stroke-width:30; }
+        10%  { stroke-dashoffset: 150;  stroke-dasharray: 300 1476; }
+        13%  { stroke-dashoffset: 1040; stroke-dasharray: 300 1476; }
+        25%  { stroke-dashoffset: 1040; stroke-dasharray: 300 1476; }
+        28%  { stroke-dashoffset: 1040; stroke-dasharray: 287 600; }
+        40%  { stroke-dashoffset: 1040; stroke-dasharray: 287 600; stroke-width:30; }
+        48%  { stroke-dashoffset: -300; stroke-dasharray: 287 600; stroke-width:0; }
+        55%  { stroke-dashoffset: -300; stroke-dasharray: 287 600; }
+        63%  { stroke-dashoffset: -300; stroke-dasharray: 300 1476; }
+        70%  { stroke-dashoffset: -300; stroke-dasharray: 300 1476; stroke-width:0; }
+        78%  { stroke-dashoffset: 150;  stroke-dasharray: 300 1476; stroke-width:30; }
+        }
+
+
+.sections-font{
+    padding:250px 0px ;
+    background-image: url('../images/job-image.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+    background-color: op;
+    color: white;
+    
+}
+
+.job-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job-images-container{
+    display: flex;
+    justify-content: end;
+}
+
+.contact-img{
+    width: 600px;
+    object-fit: cover;
+    object-position:center;
+}
+
+.job-container{
+    box-shadow: rgba(0, 0, 0, 1) 8px 12px 40px;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+}
+
+.my-journey-container{
+    display: flex;
+    justify-content:space-around;
+
+    margin-bottom: 90px;
+
+}
+
+.section-photo{
+    width: 350px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.job-photo{
+    width: 350px;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+    border-radius: 10px;
+}
+.main-skills-container{
+    background-color: rgb(78, 78, 78);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 40px;
+    box-shadow: rgba(46, 204, 240, 0.4) -5px 5px, rgba(46, 204, 240, 0.3) -10px 10px, rgba(46, 204, 240, 0.2) -15px 15px, rgba(46, 204, 240, 0.1) -20px 20px, rgba(46, 204, 240, 0.05) -25px 25px;
+    
+    
+}
+
+.all-skills-photo{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 50% ;
+    object-fit: cover;
+}
+.all-skills-container{
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    max-width: 1400px;
+}
+.jobs-photo{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+.all-skills{
+    margin-bottom: 300px;
+   
+}
+
+.skills-listed{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    padding-left: 30px;
+    list-style: none;
+    color: aliceblue;
+    
+}
+.title-all-skills{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.form-container{
+    margin: 50px;
+}
+
+.title-contact{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    color: aliceblue;
+}
+.contact-form-container{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+.section-contact{
+    margin: 100px auto;
+    display: flex;
+    justify-content:space-between;
+    max-width: 1400px;
+    background-color: rgb(28, 28, 28);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(46, 204, 240, 0.4) 10px 10px, rgba(46, 204, 240, 0.3) 15px 15px, rgba(46, 204, 240, 0.2) 20px 20px, rgba(46, 204, 240, 0.1) 25px 25px, rgba(46, 204, 240, 0.05) 30px 30px;
+    
+}
+
+.networks-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    border: none;
+    margin-right: 10px;
+}
+
+.links-font{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    margin-left: 8px;
+    text-decoration: none;
+    color:rgb(45, 45, 45) ;
+}
+
+.about-img-container{
+    position: relative;
+    margin-right: 20px;
+}
+
+.footer-copy-info{
+display: flex;
+justify-content: space-between;
+}
+
+.copy-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.copy-container:hover{
+    scale: 1.1;
+}
+
+.ml{
+    margin-left: 10px;
+}
+
+.footer-container{
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+footer{
+    box-shadow: rgba(0, 0, 0, 0.522) 0px -50px 36px -28px inset;
+}
